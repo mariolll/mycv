@@ -3,12 +3,6 @@ var model = { sphere: [], star: [], text: [], heart: [], hover: []};
 var fixArr = ['Dubbo', 'Maven', 'Computer', 'FinTech', 'Distributed', 'back-end', , 'RPC', 'Southampton Uni', 'is', 'test', 'experience',
     'Spring', 'Jekins', 'Java', 'MySQL', 'Web', 'Redis', 'Python', 'Science', 'Internet', 'Finace']
 
-
-var basicInfo = "Name: Qian Lin \n " +
-			  "Address:  Flat D 308 - 310 Lewisham High Street \n " +
-			  "Email: qlin250@gmail.com \n " +
-			  "Mobile: 07305361177";
-
 var assessText = "One year experience in a commercial bank in China. Participated in design, review, development and maintenance of bank web service. Rich experience in object-oriented programming development and Java distributed system. Having strong capability to learn and use new computer technique and programming language. Good at mathematics. Able to complete duties on time to support teams. Work hard and have positive attitude to accept any challenge."
 
 var expText = "2016/07 -- 2017/11:  XIB Bank \n " +
@@ -29,7 +23,7 @@ var projExpText = "2017/3 - 2017/11: Funding Deposit System \n " +
 var itSkillText = "MySQL: 24 Months experience \n " +
                   "Java: 36 Months experience";
 
-var contentArr = [basicInfo, assessText, expText, eduText, projExpText, itSkillText];
+var contentArr = [assessText, expText, eduText, projExpText, itSkillText];
 
 var camera, scene, renderer;
 var controls;
