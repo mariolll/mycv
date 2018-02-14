@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	</head>
+
+	<body>
+		<script src="js/three.min.js"></script>
+		<script src="js/tween.min.js"></script>
+		<script src="js/TrackballControls.js"></script>
+		<script src="js/CSS3DRenderer.js"></script>
+		<script src="js/display.js"></script>
+
+		<div id="display">
+			<div id="info">
+				<div class="option-box" onmouseover="mouseOver(0)" onmouseout="mouseExit()">
+					Basic Info
+				</div>
+				<div class="option-box" onmouseover="mouseOver(1)" onmouseout="mouseExit()">
+					self assessment
+				</div>
+				<div class="option-box" onmouseover="mouseOver(2)" onmouseout="mouseExit()">
+					work experience
+				</div>
+				<div class="option-box" onmouseover="mouseOver(3)" onmouseout="mouseExit()">
+					education
+				</div>
+				<div class="option-box" onmouseover="mouseOver(4)" onmouseout="mouseExit()">
+					project experience
+				</div>
+				<div class="option-box" onmouseover="mouseOver(5)" onmouseout="mouseExit()">
+					IT Skills
+				</div>
+
+			</div>
+			<div id="container"></div>
+		</div>
+		<script>
+			init();
+			animate();
+		</script>
+	</body>
+</html>
+<style type="text/css">
+  #display {
+  	display: inline-flex;
+  }
+
+  #option-link {
+  	min-width: 19vw;
+  	max-width: 19vw;
+  }
+
+  #container {
+  	min-width: 85vw;
+  	max-height: 85vw;
+  }
+ 
+  .option-box {
+  	margin-left: 2vw;
+  	text-align: center;
+  	border: 5px solid #cccccc;
+  	padding: 10px;
+  	font-size: 21px;
+  	font-weight: bold;
+  	color: #cccccc;
+  	margin-top: 30px;
+  	transition: color 1s ease-in-out,
+  	            border-top-color 1s ease-in,
+  				border-right-color 1s ease-in 0.3s,
+  				border-bottom-color 1s ease-in 0.6s,
+  				border-left-color 1s ease-in 0.9s;
+  }
+
+  .option-box:hover {
+  	border-color: #5dc7bf;
+  	color: #5dc7bf;
+  }
+
+
+
+
+</style>
