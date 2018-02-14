@@ -141,9 +141,10 @@ function hover(duration, ang, size) {
 function displayText(text, duration) {
 	model.text = [];
 	var width = window.innerWidth * 0.85;
+    var height = window.innerHeight;
     var strArr = text.split(" ")
     var offsetX = -(width * 1.5) + getSize(strArr[0]) / 2,
-        offsetY = 1200;
+        offsetY = height;
     for (var i = 0; i < strArr.length; i++) {
         if (strArr[i] === '\n') {
         	offsetX = -(width * 1.5) + getSize(strArr[i+1]) / 2;
