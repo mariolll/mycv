@@ -16,7 +16,7 @@ var eduText = "Education \n " +
     "Get 2:1 result overall. Learned Java, Algorithm, Cloud application, Software development, Intelligent System, Database management. Good at programming language and mathematics."
 var projExpText = "2017/3 - 2017/11: Funding Deposit System \n " +
                   "Project Description:	Deposit online P2P companies’ funds to guarantee the safety of their funding \n " +
-                  "Responsibility: Construct a high-speed performance distributed systems and provide relevant interfaces. Maintenance of web server , trouble shooting all aspects that arise in operation + \n " +
+                  "Responsibility: Construct a high-speed performance distributed systems and provide relevant interfaces. Maintenance of web server , trouble shooting all aspects that arise in operation \n " +
                   "2016/07 - 2017/03: Integrated Channel System \n " +
                   "Project Description:	A system provides unified service to front system such as e-bank, bank counters and so on \n " + 
                   "Responsibility:	Maintain web service. Meanwhile develop new functions and expand this system to satisfy new requirement.";
