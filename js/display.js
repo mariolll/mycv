@@ -21,7 +21,10 @@ var projExpText = "2017/3 - 2017/11: Funding Deposit System \n " +
                   "Project Description:	A system provides unified service to front system such as e-bank, bank counters and so on \n " + 
                   "Responsibility:	Maintain web service. Meanwhile develop new functions and expand this system to satisfy new requirement.";
 var itSkillText = "MySQL: 24 Months experience \n " +
-                  "Java: 36 Months experience";
+                  "Java: 36 Months experience \n " +
+    		  "Spring: 12 Months experience \n " + 
+    		  "Maven: 12 Months experience \n " + 
+    		  "MyBatis 12 Months experince"; 
 
 var contentArr = [assessText, expText, eduText, projExpText, itSkillText];
 
